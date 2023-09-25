@@ -54,6 +54,7 @@ const CarCard = ({ car }: CarCardProps) => {
             <p className="car-card__icon-text">{city_mpg} MPG</p>
           </div>
         </div>
+        
         <div className="car-card__btn-container">
           <CustomButton
             title='View More'
